@@ -1,3 +1,0 @@
-
-This repo only contains my custom smali code.
-To make it work, you need to manually download and add the NanoHTTPD library (fi.iki.elonen.util) to your project.

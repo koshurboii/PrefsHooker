@@ -30,6 +30,9 @@ A DEX module for Android APKs. Inject it into any app to start a local HTTP serv
 3. **Invoke the Smali code** from the `LauncherActivity` to start the `PrefsHooker` service:  
    ```smali
    # Place this code inside the onCreate() method
+   
+   sget-object v0, Lkoshurboii/PrefsHooker/ۦۢۥ;->ۥ:Lkoshurboii/PrefsHooker/ۦۢۥ;
+    invoke-virtual {v0}, Lkoshurboii/PrefsHooker/ۦۢۥ;->ۥ()V
    ```  
 4. **Save your changes** and rebuild the APK.  
 5. **Open the app**; a persistent notification will appear, indicating that the server has started.  

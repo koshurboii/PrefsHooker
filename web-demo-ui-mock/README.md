@@ -1,6 +1,6 @@
 # Web Demo UI Mock  
 
-This repository contains a **mock demo UI** of the SharedPreferences management and editor interfaces.  
+This folder contains a **mock demo UI** of the SharedPreferences management and editor interfaces.  
 These pages represent the **login, listing, and editing views** that appear when the server is started.  
 
 - `login.html` → Login interface for SharedPreferences management  
